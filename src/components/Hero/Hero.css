@@ -58,8 +58,8 @@
   }
 
   /* Main CTA Buttons */
-  div > a[href="resume.pdf"],
-  div > a[href="#contact"] {
+  div > a[download="Shrey_Monka_Resume.pdf"],
+  div > a[href="mailto:sh605539@dal.ca"] {
     width: auto; /* Remove fixed width */
     min-width: 140px; /* Set minimum width */
     padding: 0.5rem 1.25rem;

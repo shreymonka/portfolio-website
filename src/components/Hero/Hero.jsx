@@ -42,7 +42,7 @@ const Hero = () => {
     <Download size={20} />
   </a>
   <a 
-    href="mailto:your.email@example.com" 
+    href="mailto:sh605539@dal.ca" 
     className="px-8 py-3 rounded-full border-2 border-[#2d5857] text-[#2d5857] hover:bg-[#2d5857] hover:text-white transition-all duration-300 text-lg flex items-center gap-2"
   >
     Let's Connect
