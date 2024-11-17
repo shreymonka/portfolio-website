@@ -97,8 +97,8 @@ const Projects = () => {
       title: "BidWise",
       description: "An innovative online and real-time auction platform that redefines the auction experience by prioritizing user control. BidWise provides a seamless and enjoyable bidding experience with real-time insights, analytics, and adaptive scaling.",
       technologies: ["ANGULAR", "SPRINGBOOT", "MYSQL", "DOCKER", "TYPESCRIPT", "JAVA", "CHART.JS", "BOOTSTRAP"],
-      image: "src/assets/Bidwise3.png",
-      githubUrl: "https://github.com/shreymonka/bidwise",
+      image: "./src/assets/Bidwise3.png",
+      // githubUrl: "https://github.com/shreymonka/bidwise",
       keyFeatures: [
         {
           icon: "🚀",
