@@ -58,7 +58,7 @@
   }
 
   /* Main CTA Buttons */
-  div > a[href="your_cv.pdf"],
+  div > a[href="resume.pdf"],
   div > a[href="#contact"] {
     width: auto; /* Remove fixed width */
     min-width: 140px; /* Set minimum width */

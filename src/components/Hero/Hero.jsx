@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Download, Send, Github, Linkedin } from 'lucide-react'; 
+import { Download, Send, Github, Linkedin } from 'lucide-react';
+import resumePDF from './resume.pdf';   
 import './Hero.css';
 
 const Hero = () => {
@@ -33,15 +34,15 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex justify-center gap-6 mt-8">
   <a 
-    href="your_cv.pdf" 
-    download
+    href={resumePDF}
+    download="Shrey_Monka_Resume.pdf"
     className="px-8 py-3 rounded-full bg-[#2d5857] text-white hover:bg-opacity-90 transition-all duration-300 text-lg flex items-center gap-2"
   >
     Download CV
     <Download size={20} />
   </a>
   <a 
-    href="#contact" 
+    href="mailto:your.email@example.com" 
     className="px-8 py-3 rounded-full border-2 border-[#2d5857] text-[#2d5857] hover:bg-[#2d5857] hover:text-white transition-all duration-300 text-lg flex items-center gap-2"
   >
     Let's Connect

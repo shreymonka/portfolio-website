@@ -23,11 +23,11 @@ const SkillPill = ({ name, hoverEffect = 'fancy' }) => (
 
 const Skills = () => {
     const skills = [
-        "AWS", "Azure", "GCP", "Terraform", "CI/CD", "React", "Angular", "HTML", "CSS", "Bootstrap", 
+        "AWS", "Azure", "GCP", "Terraform", "CI/CD", "React", "Docker", "Kubernetes", "Angular", "HTML", "CSS", "Bootstrap", 
         "Tailwind", "JQuery",  "Node.js", "EJS", "Django", "Flask", "SpringBoot", "OpenCV", 
         "Junit5", "JIRA", "Postman", "Java", "Python", "C++", "C", "Perl", "TypeScript", 
         "JavaScript", "Kotlin", "PostgreSQL", "MongoDB", "Amazon Aurora", "Amazon S3",
-        "Azure Blob", "DynamoDB"
+        "MySQL"
       ];
 
   // Add these keyframes to your CSS file or Tailwind config
