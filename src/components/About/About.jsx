@@ -24,7 +24,7 @@ const About = () => {
   const timelineData = [
     {
       year: "2019-2023",
-      title: "Graduated Bachelor's (CE)",
+      title: "Graduated Bachelor's (Computer Engineering)",
       location: "Gandhinagar, India",
       description: "Completed Computer Engineering degree with gaining knowledge in modern programming languages and software methodologies.",
       icon: GraduationCap
@@ -38,7 +38,7 @@ const About = () => {
     },
     {
       year: "2023-Present",
-      title: "Pursuing Master's (MACS)",
+      title: "Pursuing Master's (Master's of Applied Computer Science)",
       location: "Halifax, Canada",
       description: "Specializing in cloud architecture, full-stack software development, and mobile solutions while pursuing Master's in Applied Computer Science at Dalhousie University.",
       icon: GraduationCap

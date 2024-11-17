@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Download, Send, Github, Linkedin } from 'lucide-react'; // Added Github and Linkedin
+import { Download, Send, Github, Linkedin } from 'lucide-react'; 
 import './Hero.css';
 
 const Hero = () => {
@@ -16,17 +16,17 @@ const Hero = () => {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}
       >
-        <h1 className="text-4xl md:text-7xl font-medium mb-4 hero-text animate-fadeIn"> {/* Increased font size */}
+        <h1 className="text-4xl md:text-7xl font-medium mb-4 hero-text animate-fadeIn"> 
           Hi,
         </h1>
-        <h2 className="text-4xl md:text-7xl font-medium hero-text animate-slideUp"> {/* Increased font size */}
+        <h2 className="text-4xl md:text-7xl font-medium hero-text animate-slideUp"> 
           I am Shrey Monka
         </h2>
-        <h3 className="text-2xl md:text-2xl text-[#2d5857] mt-4 animate-slideUp opacity-80"> {/* Adjusted size */}
+        <h3 className="text-2xl md:text-2xl text-[#2d5857] mt-4 animate-slideUp opacity-80"> 
           Cloud Architect & Full Stack Developer
         </h3>
 
-        <p className="mt-6 text-lg md:text-xl text-[#2d5857] max-w-3xl mx-auto opacity-75"> {/* Increased max-width */}
+        <p className="mt-6 text-lg md:text-xl text-[#2d5857] max-w-3xl mx-auto opacity-75"> 
           Transforming ideas into scalable solutions with modern technologies
         </p>
 
@@ -49,7 +49,7 @@ const Hero = () => {
   </a>
 </div>
 
-{/* Social Links - changed mt-10 to mt-6 */}
+
 <div className="flex justify-center gap-6 mt-6">
   <a 
     href="https://www.linkedin.com/in/shreymonka/" 
