@@ -1,5 +1,12 @@
 import React from 'react';
 
+// Import images directly at the top of the file
+import bidwiseImage from '../../assets/Bidwise3.png';
+import travelBuddyImage from '../../assets/TravelBuddy.png';
+import cryppyImage from '../../assets/Cryppy.png';
+import ddpImage from '../../assets/ddp2.png';
+import sldsImage from '../../assets/slds.png';
+
 const TechTag = ({ name, variant = 'filled' }) => {
   // Styles now include hover states that switch between filled and outline
   const styles = {
@@ -97,7 +104,7 @@ const Projects = () => {
       title: "BidWise",
       description: "An innovative online and real-time auction platform that redefines the auction experience by prioritizing user control. BidWise provides a seamless and enjoyable bidding experience with real-time insights, analytics, and adaptive scaling.",
       technologies: ["ANGULAR", "SPRINGBOOT", "MYSQL", "DOCKER", "TYPESCRIPT", "JAVA", "CHART.JS", "BOOTSTRAP"],
-      image: "./src/assets/Bidwise3.png",
+      image: bidwiseImage,
       // githubUrl: "https://github.com/shreymonka/bidwise",
       keyFeatures: [
         {
@@ -126,8 +133,8 @@ const Projects = () => {
       title: "TravelBuddy",
       description: "The application provides a platform where users can create detailed travel plans, including flights, accommodations, activities, and transportation. The users can share their stories via a mini tweet like posts on the web application.",
       technologies: ["AWS", "EC2", "CloudFormation", "IaaS", "ANGULAR", "SPRINGBOOT", "MYSQL", "DOCKER", "BOOTSTRAP"],
-      image: "src/assets/TravelBuddy.png",
-      githubUrl: "https://github.com/shreymonka/TravelBuddy",
+      image: travelBuddyImage,
+      // githubUrl: "https://github.com/shreymonka/TravelBuddy",
       keyFeatures: [
         {
           icon: "🔐",
@@ -155,8 +162,8 @@ const Projects = () => {
       title: "Cryppy : CryptoTracker",
       description: "A dynamic cryptocurrency tracking platform that delivers real-time market insights, personalized watchlists, and curated news updates. Built with React, this application empowers users to make informed decisions in the crypto market through intuitive analytics and live price monitoring.",
       technologies: ["REACT", "REDUX", "BOOTSTRAP", "CHARTJS", "ANT DESIGN", "BING NEWS API", "COIN RANKING API"],
-      image: "src/assets/Cryppy.png",
-      githubUrl: "https://github.com/shreymonka/Cryppy",
+      image: cryppyImage,
+      // githubUrl: "https://github.com/shreymonka/Cryppy",
       keyFeatures: [
         {
           icon: "📊",
@@ -190,8 +197,8 @@ const Projects = () => {
       "IMUTILS",
       "HAAR-CASCADE",
       "IMAGE-PROCESSING"],
-      image: "src/assets/ddp2.png",
-      githubUrl: "https://github.com/shreymonka/DrowsinessDetectionSystem",
+      image: ddpImage,
+      // githubUrl: "https://github.com/shreymonka/DrowsinessDetectionSystem",
       keyFeatures: [
         {
           icon: "👁️",
@@ -228,8 +235,8 @@ const Projects = () => {
         "TRANSFER-LEARNING",
         "COMPUTER-VISION"
       ],
-      image: "src/assets/slds.png",
-      githubUrl: "https://github.com/shreymonka/SignLanguageDetectionSystem",
+      image: sldsImage,
+      // githubUrl: "https://github.com/shreymonka/SignLanguageDetectionSystem",
       keyFeatures: [
         {
           icon: "🤲",

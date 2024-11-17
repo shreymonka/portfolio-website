@@ -1,5 +1,6 @@
 import React from 'react';
 import { GraduationCap, Briefcase } from 'lucide-react';
+import './About.css';
 
 const TimelineItem = ({ year, title, location, description, icon: Icon }) => (
   <div className="flex gap-8 mb-16">

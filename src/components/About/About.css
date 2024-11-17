@@ -1,0 +1,106 @@
+/* About.css */
+
+/* Desktop styles (can remain as they are) */
+.timeline-item {
+    position: relative;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media screen and (max-width: 640px) {
+    /* About section container */
+    #about {
+      padding: 2rem 1rem !important;
+    }
+  
+    /* Main title "About Me" */
+    #about h2.text-3xl {
+      font-size: 1.75rem !important;
+      margin-bottom: 2rem !important;
+    }
+  
+    /* Personal Introduction paragraph */
+    #about .mb-10 p.text-lg {
+      font-size: 0.9rem !important;
+      line-height: 1.6 !important;
+      padding: 0 0.5rem !important;
+    }
+  
+    /* Journey section title */
+    #about h3.text-2xl {
+      font-size: 1.5rem !important;
+      margin-bottom: 2rem !important;
+    }
+  
+    /* Timeline item container adjustments */
+    .flex.gap-8.mb-16 {
+      gap: 1rem !important;
+      margin-bottom: 2.5rem !important;
+    }
+  
+    /* Year section */
+    .w-32.text-right {
+      width: 4.5rem !important;
+    }
+  
+    .w-32.text-right span {
+      font-size: 0.875rem !important;
+    }
+  
+    /* Timeline vertical line */
+    .absolute.h-full.w-0\.5 {
+      width: 2px !important;
+    }
+  
+    /* Timeline circle */
+    .w-8.h-8 {
+      width: 1.75rem !important;
+      height: 1.75rem !important;
+    }
+  
+    /* Timeline icon */
+    .w-8.h-8 svg {
+      width: 0.875rem !important;
+      height: 0.875rem !important;
+    }
+  
+    /* Content section */
+    .flex-1 h3 {
+      font-size: 1rem !important;
+      line-height: 1.4 !important;
+      margin-bottom: 0.25rem !important;
+    }
+  
+    .flex-1 p.text-gray-600 {
+      font-size: 0.875rem !important;
+      margin-bottom: 0.375rem !important;
+    }
+  
+    .flex-1 p.text-gray-700 {
+      font-size: 0.875rem !important;
+      line-height: 1.5 !important;
+    }
+  
+    /* Container max width adjustment */
+    .max-w-5xl {
+      width: 100% !important;
+      padding: 0 0.5rem !important;
+    }
+  
+    /* Personal introduction container */
+    .max-w-3xl {
+      width: 100% !important;
+      padding: 0 0.5rem !important;
+    }
+  
+    /* Ensure proper spacing between items */
+    .relative > div:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+  
+  /* Optional: Add smooth transitions for better user experience */
+  @media screen and (max-width: 640px) {
+    * {
+      transition: all 0.3s ease-in-out;
+    }
+  }
