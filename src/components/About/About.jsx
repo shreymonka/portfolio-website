@@ -31,18 +31,25 @@ const About = () => {
       icon: GraduationCap
     },
     {
-      year: "2022 - 2023",
-      title: "Web Dev, Intern",
-      location: "Ahmedabad, India",
-      description: "Gained experience in web and software development, worked on Python-based web projects as part of an internship, using frameworks like Flask and Django to develop and deploy web applications.",
+      year: "2023-2025",
+      title: "Graduated Master's (Master's of Applied Computer Science)",
+      location: "Halifax, Canada",
+      description: "Specialized in cloud architecture, full-stack software development, and mobile solutions while pursuing Master's in Applied Computer Science at Dalhousie University.",
+      icon: GraduationCap
+    },
+    {
+      year: "May 2025 - Aug 2025",
+      title: "Data Engineering Co-op",
+      location: "Nova Scotia Health, Halifax, Canada",
+      description: "Worked as a Data Engineering Co-op, gaining hands-on experience in data pipelines, ETL processes, and healthcare data systems.",
       icon: Briefcase
     },
     {
-      year: "2023-Present",
-      title: "Pursuing Master's (Master's of Applied Computer Science)",
-      location: "Halifax, Canada",
-      description: "Specializing in cloud architecture, full-stack software development, and mobile solutions while pursuing Master's in Applied Computer Science at Dalhousie University.",
-      icon: GraduationCap
+      year: "2025-Present",
+      title: "Cloud Engineer",
+      location: "OceanAID, Halifax, Canada",
+      description: "Working as a Cloud Engineer, designing and implementing cloud infrastructure solutions and services.",
+      icon: Briefcase
     }
   ];
 
